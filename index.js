@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 
-mongoose.connect("mongodb://localhost:27017/studentDB")
+mongoose.connect("mongodb+srv://harshthorat18:o5ROGsS5YTX7QFZV@cluster0.rongw6g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>(console.log("DB Connected Successfully")))
 .catch((err)=>{console.error()})
 
